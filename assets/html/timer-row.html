@@ -1,0 +1,11 @@
+<div class="row">
+  <div class="small-12 medium-2 columns text-left small-only-text-center">
+    {{convertToHours(timer.time)}} hrs.
+  </div>
+  <div class="small-12 medium-6 columns small-only-text-center">
+    {{timer.description}}
+  </div>
+  <div class="small-12 medium-4 columns text-right small-only-text-center">
+    <a ng-click="removeRecord(timer.timer_id, 'delete_timer', $parent.$parent.$parent.$parent.$parent.$index, $parent.$parent.$index, $index)">Delete</a>
+  </div>
+</div>

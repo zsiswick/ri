@@ -1,0 +1,32 @@
+
+<div class="row" ng-hide="task.task_form">
+  <div class="columns small-6">
+    <h4>{{task.task_name}}</h4>
+  </div>
+  <div class="columns small-6 text-right">
+    <button href="#" data-dropdown="drop-{{task.id}}" data-dropdown="leftDrop" data-options="align: left" aria-controls="drop-{{task.id}}" aria-expanded="false" class="button dropdown tiny secondary round no-text">&nbsp;</button><br>
+    <ul id="drop-{{task.id}}" data-dropdown-content class="f-dropdown" aria-hidden="true" tabindex="-1">
+      <li><a class="text-left" ng-click="showEditTaskForm(task)"><i class="fi-pencil"></i> &nbsp;Edit Task</a>
+      </li>
+      <li><a class="load-timer text-left" data-reveal-id="revealModal" ng-click="setTimerId(task)"><i class="fi-clock"></i> &nbsp;Log Time</a></li>
+      <li><a href="#" class="text-left" ng-click="removeTaskRow($parent.$parent.$index, task, $index)"><i class="fi-x-circle"></i> &nbsp;Delete Task</a></li>
+    </ul>
+  </div>
+  <div class="small-12 columns">
+    <a ng-show="task.timers" ng-click="show=!show"><i class="fi-clock"></i> {{task.time_total}} </a> <span ng-show="!task.timers">{{task.time_total}}</span> of {{task.time_estimate}} hours logged  &nbsp;|&nbsp; Rate: ${{task.rate}}
+  </div>
+  <div class="columns medium-12" ng-if="task.time_estimate > 0">
+    <!--{{task.percent_complete}}%-->
+    <div class="progress success radius">
+      <span class="meter" style="width: {{task.percent_complete > 100 ? '100' : task.percent_complete}}%"></span>
+    </div>
+  </div>
+  <div ng-if="task.timers" class="small-12 columns">
+    <div ng-show="show" class="timers" ng-repeat="timer in task.timers track by $index" ng-include="getTimerRows()"></div>
+  </div>
+</div>
+<div ng-include="getEditTaskForm()" ng-show="task.task_form"></div>
+
+<script type="text/javascript">
+  $(document).foundation();
+</script>

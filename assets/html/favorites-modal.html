@@ -1,0 +1,13 @@
+<div class="text-center">
+
+  <h2>Add an Item</h2>
+  <div class="row">
+    <select class="left small-11 columns" name="favorites" ng-model="favorite" ng-options="favorite.description for favorite in favorites track by favorite.id">
+      <option value="">Select a favorite</option>
+    </select>
+    <a id="delete-fav-{{favorite.id}}" class="button tiny radius right" ng-model="favorite" ng-click="removeFav(favorite.id); showAlert(true)"><i class="fi-x"></i></a>
+  </div>
+
+  <hr>
+  <a id="insert_favorite" class="button round" ng-model="favorite" ng-click="addFavoriteRow(favorite)">Insert Item</a>
+</div>

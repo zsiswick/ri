@@ -1,0 +1,31 @@
+<div class="row">
+  <div class="task-form" ng-show="prj.task_form">
+    <div class="columns medium-6">
+      <input type="text" placeholder="Task Name" ng-model="task_name" />
+    </div>
+    <div class="columns small-6 medium-2">
+      <div class="row collapse">
+        <div class="small-3 columns">
+          <span class="prefix">$</span>
+        </div>
+        <div class="small-9 columns">
+          <input type="text" placeholder="Rate" ng-model="task_rate" />
+        </div>
+      </div>
+    </div>
+    <div class="columns small-6 medium-2">
+      <div class="row collapse">
+        <div class="small-8 columns">
+          <input type="text" placeholder="Estimate" ng-model="task_estimate" />
+        </div>
+        <div class="small-4 columns">
+          <span class="postfix">Hrs</span>
+        </div>
+      </div>
+    </div>
+    <div class="columns medium-2 text-right">
+      <a class="button small round secondary" ng-click="addTask(prj, task_name, task_rate, task_estimate); task_name = null; task_rate = null; task_estimate = null">Save</a><br>
+      <a ng-click="hideTaskForm(prj)">Cancel</a>
+    </div>
+  </div>
+</div>

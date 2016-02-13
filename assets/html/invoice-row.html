@@ -1,0 +1,80 @@
+	<div id="qty-{{item.length}}" class="qty small-12 medium-3 columns">
+		<div class="row">
+			<div class="small-6 medium-4 columns error">
+				<input type="hidden" name="item_id[]">
+				<input class="qty sum" data-a-pad="false" data-invalid="" name="qty[]" placeholder="1.5" required="" type="text" value="{{item.qty}}">
+			</div>
+
+			<div class="small-6 medium-4 columns">
+				<select class="unit" id="unit" name="unit[]">
+					<option value="hours">
+						hours
+					</option>
+
+					<option value="days">
+						days
+					</option>
+
+					<option value="services">
+						services
+					</option>
+
+					<option value="products">
+						products
+					</option>
+				</select>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="medium-12 columns">
+				<div class="small-type">
+					<a class="delete-row">Remove</a> &nbsp;|&nbsp; <a class="add-favorite">Save Item</a>
+				</div><small class="error">Quantity is required.</small>
+			</div>
+		</div>
+	</div>
+
+	<div class="description small-12 medium-5 columns">
+		<textarea name="description[]" placeholder="Client Meeting" rows="5">{{item.description}}</textarea>
+	</div>
+
+	<div class="price small-12 medium-2 columns">
+		<div class="row">
+			<div class="medium-12 columns">
+				<input class="unitCost sum" data-a-dec="." data-a-sep="" name="unit_cost[]" placeholder="65" required="" type="text" value="{{item.unit_cost}}">
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="medium-12 columns">
+				<select class="tax" id="tax" name="tax[]">
+					<option selected="selected" value="">
+
+					</option>
+
+					<option value="{{invoice_tax_1}}">
+						Tax 1: {{invoice_tax_1}}%
+					</option>
+
+					<option value="{{invoice_tax_2}}">
+						Tax 2: {{invoice_tax_2}}%
+					</option>
+
+					<!--
+					<option value="{{invoice_tax_1*1 + invoice_tax_2*1}}">
+						Both: {{invoice_tax_1*1 + invoice_tax_2*1}}%
+					</option>
+					-->
+				</select> <small class="error">Price is required.</small>
+			</div>
+		</div>
+	</div>
+
+	<div class="totalSum small-12 medium-2 text-right columns">
+		0.00
+	</div>
+
+	<div class="small-12 columns">
+		<hr>
+	</div>

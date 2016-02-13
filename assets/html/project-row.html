@@ -1,0 +1,61 @@
+<div ng-include="getEditProjectForm()" ng-show="prj.project_form"></div>
+<div class="small-12 columns" ng-hide="prj.project_form">
+
+  <a id="prj-{{$index}}" class="button dropdown radius secondary" dropdown-toggle="#drop-prj-{{$index}}">{{prj.project_name}}</a>
+  <ul id="drop-prj-{{$index}}" class="f-dropdown">
+    <li><a class="text-left" ng-click="showEditProjectForm(prj)"><i class="fi-pencil"></i> &nbsp;Edit Project</a></li>
+    <li ng-if="prj.hours_unbilled !== '0.00'"><a ng-click="draft_invoice(prj, $index)"><i class="fi-page"></i> &nbsp;Draft Invoice</a></li>
+    <li><a class="text-left" ng-click="removeProject($index, prj)"><i class="fi-x-circle"></i> &nbsp;Delete Project</a></li>
+  </ul>
+</div>
+
+<div class="columns small-8">
+  <h4><i class="fi-list"></i> Tasks</h4>
+</div>
+<div class="columns small-4 text-right">
+  <a id="task-{{$index}}" class="button small radius secondary" ng-click="showTaskForm(prj)">Add</a>
+</div>
+
+<div class="columns medium-12">
+  <!-- EMPTY TASK MESSAGE -->
+  <div ng-if="prj.tasks.length < 1 || !prj.tasks" ng-hide="prj.task_form" class="panel text-center">
+    <span><a ng-click="showTaskForm(prj)">Add a task</a> to start logging hours for {{prj.project_name}}</span>
+  </div>
+  <!-- PROJECT TASK FORM -->
+  <div class="panel task-form" ng-show="prj.task_form" ng-include="getTaskForm()"></div>
+  <!-- TASK REPEATER -->
+  <div class="task-list">
+    <div class="panel task" ng-repeat="task in prj.tasks | orderBy:'task.id':false track by task.id" ng-include="getTaskTemplate()"></div>
+  </div>
+
+  <div class="row">
+    <div class="medium-5 medium-offset-7 columns">
+      <div class="panel hoursWorked">
+        <div class="row">
+          <div class="small-6 columns">
+            <h4><i class="fi-clock"></i> {{prj.hours_worked}}</h4>
+          </div>
+          <div class="small-6 columns">
+            <h4><i class="fi-clock"></i> {{prj.hours_unbilled}}</h4>
+          </div>
+        </div>
+        <div class="row">
+          <div class="small-6 columns project-hours">
+            Hours Worked
+          </div>
+          <div class="small-6 columns project-hours">
+            Hours Unbilled
+          </div>
+        </div>
+        <!--<span ng-if="prj.hours_unbilled !== '0.00'" class="draft-invoice-ops"><a ng-click="draft_invoice(prj, $index)"><i class="fi-page"></i> Draft Invoice</a></span>
+        <span ng-if="prj.hours_unbilled == '0.00'" class="draft-invoice-ops"><i class="fi-page"></i> Fully Billed</span>-->
+      </div>
+
+    </div>
+  </div>
+  <div class="row">
+    <div class="small-12 columns">
+      <hr/>
+    </div>
+  </div>
+</div>

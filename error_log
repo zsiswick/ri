@@ -1,0 +1,100 @@
+[23-Jul-2014 09:15:19 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateInterval::__construct() [<a href='dateinterval.--construct'>dateinterval.--construct</a>]: Unknown or bad format (PD)' in /home/clogic/public_html/rubyinvoice.com/application/models/invoice_model.php:296
+Stack trace:
+#0 /home/clogic/public_html/rubyinvoice.com/application/models/invoice_model.php(296): DateInterval->__construct('PD')
+#1 /home/clogic/public_html/rubyinvoice.com/application/models/invoice_model.php(164): Invoice_model->_calc_due_date('7', '2014-07-23')
+#2 /home/clogic/public_html/rubyinvoice.com/application/controllers/invoices.php(104): Invoice_model->set_invoice('7')
+#3 [internal function]: Invoices->create()
+#4 /home/clogic/public_html/rubyinvoice.com/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/clogic/public_html/rubyinvoice.com/index.php(202): require_once('/home/clogic/pu...')
+#6 {main}
+  thrown in /home/clogic/public_html/rubyinvoice.com/application/models/invoice_model.php on line 296
+[23-Jul-2014 21:20:27 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateInterval::__construct() [<a href='dateinterval.--construct'>dateinterval.--construct</a>]: Unknown or bad format (PD)' in /home/clogic/public_html/rubyinvoice.com/application/models/invoice_model.php:296
+Stack trace:
+#0 /home/clogic/public_html/rubyinvoice.com/application/models/invoice_model.php(296): DateInterval->__construct('PD')
+#1 /home/clogic/public_html/rubyinvoice.com/application/models/invoice_model.php(164): Invoice_model->_calc_due_date('7', '2014-07-23')
+#2 /home/clogic/public_html/rubyinvoice.com/application/controllers/invoices.php(104): Invoice_model->set_invoice('7')
+#3 [internal function]: Invoices->create()
+#4 /home/clogic/public_html/rubyinvoice.com/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/clogic/public_html/rubyinvoice.com/index.php(202): require_once('/home/clogic/pu...')
+#6 {main}
+  thrown in /home/clogic/public_html/rubyinvoice.com/application/models/invoice_model.php on line 296
+[23-Jul-2014 21:21:19 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateInterval::__construct() [<a href='dateinterval.--construct'>dateinterval.--construct</a>]: Unknown or bad format (PD)' in /home/clogic/public_html/rubyinvoice.com/application/models/invoice_model.php:296
+Stack trace:
+#0 /home/clogic/public_html/rubyinvoice.com/application/models/invoice_model.php(296): DateInterval->__construct('PD')
+#1 /home/clogic/public_html/rubyinvoice.com/application/models/invoice_model.php(164): Invoice_model->_calc_due_date('7', '2014-07-23')
+#2 /home/clogic/public_html/rubyinvoice.com/application/controllers/invoices.php(104): Invoice_model->set_invoice('7')
+#3 [internal function]: Invoices->create()
+#4 /home/clogic/public_html/rubyinvoice.com/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/clogic/public_html/rubyinvoice.com/index.php(202): require_once('/home/clogic/pu...')
+#6 {main}
+  thrown in /home/clogic/public_html/rubyinvoice.com/application/models/invoice_model.php on line 296
+[23-Aug-2014 16:43:35 America/Chicago] PHP Fatal error:  Call to undefined method CI_Loader::spark() in /home/clogic/public_html/rubyinvoice.com/application/controllers/invoice.php on line 88
+[23-Aug-2014 16:43:35 America/Chicago] PHP Fatal error:  Call to undefined method CI_Loader::spark() in /home/clogic/public_html/rubyinvoice.com/application/controllers/invoice.php on line 88
+[23-Aug-2014 16:44:36 America/Chicago] PHP Fatal error:  Call to undefined method CI_Loader::spark() in /home/clogic/public_html/rubyinvoice.com/application/controllers/invoice.php on line 88
+[30-Aug-2014 01:11:39 America/Chicago] PHP Fatal error:  Call to undefined function send_invoice_payment_email() in /home/clogic/public_html/rubyinvoice.com/application/controllers/invoice.php on line 220
+[30-Aug-2014 01:22:12 America/Chicago] PHP Fatal error:  Call to undefined method Invoice::send_invoice_payment_email() in /home/clogic/public_html/rubyinvoice.com/application/controllers/invoice.php on line 220
+[30-Sep-2014 01:00:07 America/Chicago] PHP Warning:  fopen(http://rubyinvoice.com/index.php/invoices/send_test_email) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: HTTP request failed!  in /home/clogic/public_html/rubyinvoice.com/cron.php on line 2
+[30-Sep-2014 01:00:07 America/Chicago] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/clogic/public_html/rubyinvoice.com/cron.php on line 3
+[16-Oct-2014 12:00:06 America/Chicago] PHP Warning:  fopen(http://rubyinvoice.com/index.php/invoices/send_test_email) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: HTTP request failed!  in /home/clogic/public_html/rubyinvoice.com/cron.php on line 2
+[16-Oct-2014 12:00:06 America/Chicago] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/clogic/public_html/rubyinvoice.com/cron.php on line 3
+[30-Oct-2014 14:01:27 America/Chicago] PHP Warning:  fopen(http://rubyinvoice.com/index.php/invoices/send_test_email) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: HTTP request failed!  in /home/clogic/public_html/rubyinvoice.com/cron.php on line 2
+[30-Oct-2014 14:01:27 America/Chicago] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/clogic/public_html/rubyinvoice.com/cron.php on line 3
+[05-Nov-2014 12:00:11 America/Chicago] PHP Warning:  fopen(http://rubyinvoice.com/index.php/invoices/send_test_email) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: HTTP request failed!  in /home/clogic/public_html/rubyinvoice.com/cron.php on line 2
+[05-Nov-2014 12:00:11 America/Chicago] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/clogic/public_html/rubyinvoice.com/cron.php on line 3
+[07-Nov-2014 07:01:13 America/Chicago] PHP Warning:  fopen(http://rubyinvoice.com/index.php/invoices/send_test_email) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: HTTP request failed!  in /home/clogic/public_html/rubyinvoice.com/cron.php on line 2
+[07-Nov-2014 07:01:13 America/Chicago] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/clogic/public_html/rubyinvoice.com/cron.php on line 3
+[07-Nov-2014 11:02:05 America/Chicago] PHP Warning:  fopen(http://rubyinvoice.com/index.php/invoices/send_test_email) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: HTTP request failed!  in /home/clogic/public_html/rubyinvoice.com/cron.php on line 2
+[07-Nov-2014 11:02:05 America/Chicago] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/clogic/public_html/rubyinvoice.com/cron.php on line 3
+[07-Nov-2014 18:01:07 America/Chicago] PHP Warning:  fopen(http://rubyinvoice.com/index.php/invoices/send_test_email) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: HTTP request failed!  in /home/clogic/public_html/rubyinvoice.com/cron.php on line 2
+[07-Nov-2014 18:01:07 America/Chicago] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/clogic/public_html/rubyinvoice.com/cron.php on line 3
+[08-Nov-2014 18:01:21 America/Chicago] PHP Warning:  fopen(http://rubyinvoice.com/index.php/invoices/send_test_email) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: HTTP request failed!  in /home/clogic/public_html/rubyinvoice.com/cron.php on line 2
+[08-Nov-2014 18:01:21 America/Chicago] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/clogic/public_html/rubyinvoice.com/cron.php on line 3
+[11-Nov-2014 05:01:21 America/Chicago] PHP Warning:  fopen(http://rubyinvoice.com/index.php/invoices/send_test_email) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: HTTP request failed!  in /home/clogic/public_html/rubyinvoice.com/cron.php on line 2
+[11-Nov-2014 05:01:21 America/Chicago] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/clogic/public_html/rubyinvoice.com/cron.php on line 3
+[11-Nov-2014 08:01:33 America/Chicago] PHP Warning:  fopen(http://rubyinvoice.com/index.php/invoices/send_test_email) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: HTTP request failed!  in /home/clogic/public_html/rubyinvoice.com/cron.php on line 2
+[11-Nov-2014 08:01:33 America/Chicago] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/clogic/public_html/rubyinvoice.com/cron.php on line 3
+[14-Nov-2014 21:01:42 America/Chicago] PHP Warning:  fopen(http://rubyinvoice.com/index.php/invoices/send_test_email) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: HTTP request failed!  in /home/clogic/public_html/rubyinvoice.com/cron.php on line 2
+[14-Nov-2014 21:01:42 America/Chicago] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/clogic/public_html/rubyinvoice.com/cron.php on line 3
+[15-Nov-2014 01:00:36 America/Chicago] PHP Warning:  fopen(http://rubyinvoice.com/index.php/invoices/send_test_email) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: HTTP request failed!  in /home/clogic/public_html/rubyinvoice.com/cron.php on line 2
+[15-Nov-2014 01:00:36 America/Chicago] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/clogic/public_html/rubyinvoice.com/cron.php on line 3
+[17-Nov-2014 02:00:12 America/Chicago] PHP Warning:  fopen(http://rubyinvoice.com/index.php/invoices/send_test_email) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: HTTP request failed!  in /home/clogic/public_html/rubyinvoice.com/cron.php on line 2
+[17-Nov-2014 02:00:12 America/Chicago] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/clogic/public_html/rubyinvoice.com/cron.php on line 3
+[17-Nov-2014 17:01:30 America/Chicago] PHP Warning:  fopen(http://rubyinvoice.com/index.php/invoices/send_test_email) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: HTTP request failed!  in /home/clogic/public_html/rubyinvoice.com/cron.php on line 2
+[17-Nov-2014 17:01:30 America/Chicago] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/clogic/public_html/rubyinvoice.com/cron.php on line 3
+[18-Nov-2014 12:01:42 America/Chicago] PHP Warning:  fopen(http://rubyinvoice.com/index.php/invoices/send_test_email) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: HTTP request failed!  in /home/clogic/public_html/rubyinvoice.com/cron.php on line 2
+[18-Nov-2014 12:01:42 America/Chicago] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/clogic/public_html/rubyinvoice.com/cron.php on line 3
+[20-Nov-2014 10:01:31 America/Chicago] PHP Warning:  fopen(http://rubyinvoice.com/index.php/invoices/send_test_email) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: HTTP request failed!  in /home/clogic/public_html/rubyinvoice.com/cron.php on line 2
+[20-Nov-2014 10:01:31 America/Chicago] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/clogic/public_html/rubyinvoice.com/cron.php on line 3
+[24-Nov-2014 10:01:09 America/Chicago] PHP Warning:  fopen(http://rubyinvoice.com/index.php/invoices/send_test_email) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: HTTP request failed!  in /home/clogic/public_html/rubyinvoice.com/cron.php on line 2
+[24-Nov-2014 10:01:09 America/Chicago] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/clogic/public_html/rubyinvoice.com/cron.php on line 3
+[26-Nov-2014 10:01:19 America/Chicago] PHP Warning:  fopen(http://rubyinvoice.com/index.php/invoices/send_test_email) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: HTTP request failed!  in /home/clogic/public_html/rubyinvoice.com/cron.php on line 2
+[26-Nov-2014 10:01:19 America/Chicago] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/clogic/public_html/rubyinvoice.com/cron.php on line 3
+[26-Nov-2014 12:01:40 America/Chicago] PHP Warning:  fopen(http://rubyinvoice.com/index.php/invoices/send_test_email) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: HTTP request failed!  in /home/clogic/public_html/rubyinvoice.com/cron.php on line 2
+[26-Nov-2014 12:01:40 America/Chicago] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/clogic/public_html/rubyinvoice.com/cron.php on line 3
+[01-Dec-2014 12:01:22 America/Chicago] PHP Warning:  fopen(http://rubyinvoice.com/index.php/invoices/send_test_email) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: HTTP request failed!  in /home/clogic/public_html/rubyinvoice.com/cron.php on line 2
+[01-Dec-2014 12:01:23 America/Chicago] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/clogic/public_html/rubyinvoice.com/cron.php on line 3
+[01-Dec-2014 15:01:08 America/Chicago] PHP Warning:  fopen(http://rubyinvoice.com/index.php/invoices/send_test_email) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: HTTP request failed!  in /home/clogic/public_html/rubyinvoice.com/cron.php on line 2
+[01-Dec-2014 15:01:08 America/Chicago] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/clogic/public_html/rubyinvoice.com/cron.php on line 3
+[23-Dec-2014 10:01:37 America/Chicago] PHP Warning:  fopen(http://rubyinvoice.com/index.php/invoices/send_test_email) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: HTTP request failed!  in /home/clogic/public_html/rubyinvoice.com/cron.php on line 2
+[23-Dec-2014 10:01:37 America/Chicago] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/clogic/public_html/rubyinvoice.com/cron.php on line 3
+[24-Dec-2014 01:00:08 America/Chicago] PHP Warning:  fopen(http://rubyinvoice.com/index.php/invoices/send_test_email) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: HTTP request failed!  in /home/clogic/public_html/rubyinvoice.com/cron.php on line 2
+[24-Dec-2014 01:00:08 America/Chicago] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/clogic/public_html/rubyinvoice.com/cron.php on line 3
+[20-Jan-2015 02:00:18 America/Chicago] PHP Warning:  fopen(http://rubyinvoice.com/index.php/invoices/send_test_email) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: HTTP request failed!  in /home/clogic/public_html/rubyinvoice.com/cron.php on line 2
+[20-Jan-2015 02:00:18 America/Chicago] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/clogic/public_html/rubyinvoice.com/cron.php on line 3
+[20-Jan-2015 04:00:12 America/Chicago] PHP Warning:  fopen(http://rubyinvoice.com/index.php/invoices/send_test_email) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: HTTP request failed!  in /home/clogic/public_html/rubyinvoice.com/cron.php on line 2
+[20-Jan-2015 04:00:12 America/Chicago] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/clogic/public_html/rubyinvoice.com/cron.php on line 3
+[22-Jan-2015 16:00:09 America/Chicago] PHP Warning:  fopen(http://rubyinvoice.com/index.php/invoices/send_test_email) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: HTTP request failed!  in /home/clogic/public_html/rubyinvoice.com/cron.php on line 2
+[22-Jan-2015 16:00:09 America/Chicago] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/clogic/public_html/rubyinvoice.com/cron.php on line 3
+[09-Feb-2015 23:00:07 America/Chicago] PHP Warning:  fopen(http://rubyinvoice.com/index.php/invoices/send_test_email) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: HTTP request failed!  in /home/clogic/public_html/rubyinvoice.com/cron.php on line 2
+[09-Feb-2015 23:00:07 America/Chicago] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/clogic/public_html/rubyinvoice.com/cron.php on line 3
+[19-Feb-2015 16:00:20 America/Chicago] PHP Warning:  fopen(http://rubyinvoice.com/index.php/invoices/send_test_email) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: HTTP request failed!  in /home/clogic/public_html/rubyinvoice.com/cron.php on line 2
+[19-Feb-2015 16:00:20 America/Chicago] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/clogic/public_html/rubyinvoice.com/cron.php on line 3
+[26-Feb-2015 23:00:02 America/Chicago] PHP Warning:  fopen(http://rubyinvoice.com/index.php/invoices/send_test_email) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: HTTP request failed!  in /home/clogic/public_html/rubyinvoice.com/cron.php on line 2
+[26-Feb-2015 23:00:02 America/Chicago] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/clogic/public_html/rubyinvoice.com/cron.php on line 3
+[17-Mar-2015 12:01:25 America/Chicago] PHP Warning:  fopen() [<a href='function.fopen'>function.fopen</a>]: php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/clogic/public_html/rubyinvoice.com/cron.php on line 2
+[17-Mar-2015 12:01:25 America/Chicago] PHP Warning:  fopen(http://rubyinvoice.com/index.php/invoices/send_test_email) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/clogic/public_html/rubyinvoice.com/cron.php on line 2
+[17-Mar-2015 12:01:25 America/Chicago] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/clogic/public_html/rubyinvoice.com/cron.php on line 3
+[24-Mar-2015 22:02:03 America/Chicago] PHP Warning:  fopen(http://rubyinvoice.com/index.php/invoices/send_test_email) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: HTTP request failed!  in /home/clogic/public_html/rubyinvoice.com/cron.php on line 2
+[24-Mar-2015 22:02:03 America/Chicago] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/clogic/public_html/rubyinvoice.com/cron.php on line 3
+[07-Apr-2015 02:01:49 America/Chicago] PHP Warning:  fopen(http://rubyinvoice.com/index.php/invoices/send_test_email) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: HTTP request failed!  in /home/clogic/public_html/rubyinvoice.com/cron.php on line 2
+[07-Apr-2015 02:01:49 America/Chicago] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/clogic/public_html/rubyinvoice.com/cron.php on line 3
