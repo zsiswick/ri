@@ -21,6 +21,7 @@
 		<link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/style.css" />
 		<script src="<?php echo base_url(); ?>assets/js/vendor/modernizr.js"></script>
 		<script type="text/javascript" src="<?php echo base_url();?>assets/js/vendor/jquery.js"></script>
+		<script type="text/javascript" src="<?php echo base_url();?>assets/js/libs/angular.js"></script>
 
 		<?php if (isset($css_to_load)) :
 				foreach ($css_to_load as $css) : ?>
