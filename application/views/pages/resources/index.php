@@ -2,8 +2,8 @@
   <section class="content">
   	<div class="row">
   		<div class="columns small-10 small-centered text-center">
-  			<h1>Resources to Shine Your Business</h1>
-  			<p class="big-p">Ruby Invoice was created by me, Zac Siswick. I'm a creative web designer and coder who found great joy as a freelancer, and helping people get started with their own businesses. So I've created a handy list of resources I found to be indespensable in my freelance work, these are services I couldn't live without!</p>
+  			<h1>Resources to Polish Your Business</h1>
+  			<p class="big-p">Ruby Invoice was created by me, Zac Siswick. I'm a creative web designer and coder who found great joy helping people establish their online presence. I learned a lot about freelancing through trial and error over the years and I want to share these resources with you in the hopes that they will help you advance quickly in your freelancing career.</p>
   		</div>
   		<div class="small-12 columns pad-top"><hr class="light-bg"></div>
   	</div>
@@ -20,7 +20,7 @@
               event-action="view"
               event-label="affiliate: site5"
               target="_blank">
-              <img alt="Affiliates_120x60_2" border="0" src="http://www.site5.com/images/affiliates/affiliates_120x60_2.jpg" class="alignleft"/>
+              <img alt="Affiliates_120x60_2" border="0" src="http://www.site5.com/images/affiliates/affiliates_150x150_1.jpg" class="alignleft" style="width:120px"/>
             </a>
             <a href="http://www.site5.com/in.php?id=18181"
               ga-event-tracking
@@ -28,7 +28,7 @@
               event-action="view"
               event-label="affiliate: site5"
               target="_blank">
-              <strong>site5</strong></a>: 98% of my personal websites, and the websites I have built for others, are hosted by site5. They have a great track record in terms of helpful and timely technical support, as well as competitive pricing. In terms of shared hosting, (and I've tried almost all the big names), theirs is the fastest and most reliable I have found.
+              <strong>site5</strong></a>: 98% of my personal websites, and the websites I have built for others, are hosted by site5. They have a great track record in terms of helpful and timely technical support, as well as competitive pricing. In terms of shared hosting, (and I've tried almost all the big names), theirs is the fastest and most reliable I have found. Plus they make it easy to install some of the more popular CMS platforms like Wordpress and Drupal in just a few mouse clicks.
   			  </li>
   			</ul>
   		</div>
@@ -98,35 +98,7 @@
   <section class="content">
   	<div class="row">
   		<div class="columns large-12">
-  			<h3>Business Growth</h3>
-        <ul>
-  			  <li class="clearfix bottomSpc">
-  			    <a href="http://vitamintalent.com"
-              ga-event-tracking
-              event-category="Resources"
-              event-action="view"
-              event-label="affiliate: vitaminTalent"
-              target="_blank">
-              <img alt="vitamintalent" border="0" src="http://vitamintalent.com/contentAsset/resize-image/4a270303-ae23-42f8-bf96-9057e07417f0/fileAsset/w/1200/v/c2449694-8cec-4359-9c4a-4d8b6c8c58d0" style="width:120px" class="alignleft"/>
-            </a>
-            <a href="http://vitamintalent.com"
-              ga-event-tracking
-              event-category="Resources"
-              event-action="view"
-              event-label="affiliate: vitaminTalent"
-              target="_blank">
-              <strong>VITAMIN T</strong></a>: Over the years Vitamin Talent has served me well when I was looking for design work. They have offices globally, and work with both Fortune 500 companies as well as beautique agencies looking for contract-to-hire staff. What's also great about Vitamin T is they offer competitive benefits to their talent, and they only specialize in design-focused jobs.
-  			  </li>
-  			</ul>
-  		</div>
-  		<div class="small-12 columns pad-top"><hr class="light-bg"></div>
-  	</div>
-  </section>
-  <section class="content">
-  	<div class="row">
-  		<div class="columns large-12">
   			<h3>Creative Firepower</h3>
-  			<p>Sometimes a job is too big to handle by yourself, that's usually a good place to be, but it can be stressful if you don't have the manpower. Look no further, here's my top resources for finding awesome creative talent</p>
         <ul>
   			  <li class="clearfix bottomSpc">
   			    <a href="https://www.behance.net"
@@ -135,7 +107,7 @@
               event-action="view"
               event-label="affiliate: behance"
               target="_blank">
-              <img alt="Behance" border="0" src="http://logonoid.com/images/behance-logo.png" class="alignleft" style="width:120px"/>
+              <img alt="Behance" border="0" src="https://p6.zdassets.com/hc/settings_assets/14924/200002544/CLUIMPk3zBFUN5LSLLuf2g-behance-logo---support.png" class="alignleft" style="width:120px"/>
             </a>
             <a href="https://www.behance.net"
               ga-event-tracking
@@ -143,7 +115,7 @@
               event-action="view"
               event-label="affiliate: behance"
               target="_blank">
-              <strong>Behance</strong></a>: Looking for an amazing illustrator? Maybe some 3D pizzazz to impress the socks off your client? Feast your eyes on the Behance network, a treasure trove of the world's top talent combined with a powerful search to help you find the style of work you're searching for.
+              <strong>Behance</strong></a>: Looking for an amazing illustrator? Maybe some 3D pizzazz to impress the socks off your client? Feast your eyes on the Behance network, a treasure trove of the world's top creative talent. I have had great luck teaming up with amazing freelance artists on Behance who took my creative projects to the next level.
   			  </li>
           <li class="clearfix bottomSpc">
   			    <a href="http://99designs.com"
@@ -178,6 +150,23 @@
               event-label="affiliate: istockPhoto"
               target="_blank">
               <strong>iStockphoto</strong></a>: iStock is well known for their collection of great photography. But they also have a growing collection of high-quality vector illustrations that are dirt simple to incorporate into your own work. Their prices are competitive and you can download artwork instantly to your desktop with a single click.
+  			  </li>
+          <li class="clearfix bottomSpc">
+  			    <a href="http://vitamintalent.com"
+              ga-event-tracking
+              event-category="Resources"
+              event-action="view"
+              event-label="affiliate: vitaminTalent"
+              target="_blank">
+              <img alt="vitamintalent" border="0" src="http://vitamintalent.com/contentAsset/resize-image/4a270303-ae23-42f8-bf96-9057e07417f0/fileAsset/w/1200/v/c2449694-8cec-4359-9c4a-4d8b6c8c58d0" style="width:120px" class="alignleft"/>
+            </a>
+            <a href="http://vitamintalent.com"
+              ga-event-tracking
+              event-category="Resources"
+              event-action="view"
+              event-label="affiliate: vitaminTalent"
+              target="_blank">
+              <strong>VITAMIN T</strong></a>: Over the years Vitamin Talent has served me well when I was looking for design work. They have offices globally, and work with both Fortune 500 companies as well as beautique agencies looking for contract-to-hire staff. What's also great about Vitamin T is they offer competitive benefits to their talent, and they only specialize in design-focused jobs.
   			  </li>
   			</ul>
   		</div>
