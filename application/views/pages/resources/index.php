@@ -2,8 +2,8 @@
   <section class="content">
   	<div class="row">
   		<div class="columns small-10 small-centered text-center">
-  			<h1>Resources to Polish Your Business</h1>
-  			<p class="big-p">Ruby Invoice was created by me, Zac Siswick. I'm a creative web designer and coder who found great joy helping people establish their online presence. I learned a lot about freelancing through trial and error over the years and I want to share these resources with you in the hopes that they will help you advance quickly in your freelancing career.</p>
+  			<h1>Resources to Hone Your Business</h1>
+  			<p class="big-p">Ruby Invoice was created by me, Zac Siswick. I'm a creative web designer and coder who found great joy helping people establish their online presence. I learned a lot about freelancing through trial and error over the years and I want to share these resources with you hope it helps you advance quickly in your freelancing endeavors.</p>
   		</div>
   		<div class="small-12 columns pad-top"><hr class="light-bg"></div>
   	</div>
@@ -20,7 +20,7 @@
               event-action="view"
               event-label="affiliate: site5"
               target="_blank">
-              <img alt="Affiliates_120x60_2" border="0" src="http://www.site5.com/images/affiliates/affiliates_150x150_1.jpg" class="alignleft" style="width:120px"/>
+              <img alt="site5" border="0" src="http://www.site5.com/images/affiliates/affiliates_150x150_1.jpg" class="alignleft" style="width:120px"/>
             </a>
             <a href="http://www.site5.com/in.php?id=18181"
               ga-event-tracking
@@ -28,7 +28,24 @@
               event-action="view"
               event-label="affiliate: site5"
               target="_blank">
-              <strong>site5</strong></a>: 98% of my personal websites, and the websites I have built for others, are hosted by site5. They have a great track record in terms of helpful and timely technical support, as well as competitive pricing. In terms of shared hosting, (and I've tried almost all the big names), theirs is the fastest and most reliable I have found. Plus they make it easy to install some of the more popular CMS platforms like Wordpress and Drupal in just a few mouse clicks.
+              <strong>site5</strong></a>: 98% of my personal websites and the websites I have built for others are hosted by site5. They have a great track record in terms of helpful and timely technical support, as well as competitive pricing. In terms of shared hosting, (and I've tried almost all the big names), theirs is the fastest and most reliable I have found. Plus they make it easy to install some of the more popular CMS platforms like Wordpress and Drupal in just a few mouse clicks.
+  			  </li>
+          <li class="clearfix bottomSpc">
+  			    <a href="https:&#x2F;&#x2F;www.namecheap.com&#x2F;?aff=96355"
+              ga-event-tracking
+              event-category="Resources"
+              event-action="view"
+              event-label="affiliate: nameCheap"
+              target="_blank">
+              <img alt="namecheap" border="0" src="http:&#x2F;&#x2F;files.namecheap.com&#x2F;graphics&#x2F;linkus&#x2F;120x90-2.gif" class="alignleft"/>
+            </a>
+            <a href="https:&#x2F;&#x2F;www.namecheap.com&#x2F;?aff=96355"
+              ga-event-tracking
+              event-category="Resources"
+              event-action="view"
+              event-label="affiliate: site5"
+              target="_blank">
+              <strong>namecheap</strong></a>: Domain registration can be overwhelming. With notorious companies like godaddy.com, who try to upsell you with add-on's at every step of the registration process, it can be hard to walk away feeling like you aren't getting ripped off somehow. namecheap.com takes a refreshing approach to selling domains, with a clean interface it's much easier to get down to the business of finding that perfect domain. They offer a free year of WhoisGuard privacy protection service ($2.88 value) and a one-year Comodo PositiveSSL certificate for just $1.99.
   			  </li>
   			</ul>
   		</div>
@@ -47,7 +64,7 @@
               event-action="view"
               event-label="affiliate: amazon - dontMakeMeThink"
               target="_blank">
-              <img alt="Affiliates_120x60_2" border="0" src="http://ecx.images-amazon.com/images/I/51Swm3TW72L._SX381_BO1,204,203,200_.jpg" class="alignleft" style="width:120px"/>
+              <img alt="Don't Make Me Think" border="0" src="http://ecx.images-amazon.com/images/I/51Swm3TW72L._SX381_BO1,204,203,200_.jpg" class="alignleft" style="width:120px"/>
             </a>
             <a href="http://amzn.to/1XqUXVR"
               ga-event-tracking
@@ -55,7 +72,7 @@
               event-action="view"
               event-label="affiliate: amazon - dontMakeMeThink"
               target="_blank">
-              <strong>Don't Make Me Think</strong></a>: This book changed the way I thought about web design over night. It's a feather of a book, but it's jam packed with practical knowledge that anyone designing for the Web can learn from. Steve Krug has a case-study approach to teaching usability, his wry style might make you laugh out loud, but he'll also make you ask hard questions about your own web design as you examine real-life scenarios in each chapter.
+              <strong>Don't Make Me Think</strong></a>: This book changed the way I thought about web design overnight. It's a feather of a book, but it's jam-packed with practical knowledge that anyone designing for the Web can learn from. Steve Krug has a case-study approach to teaching usability, his wry style might make you laugh out loud, but he'll also make you ask hard questions about your own web design as you examine real-life scenarios in each chapter.
   			  </li>
           <li class="clearfix bottomSpc">
   			    <a href="http://amzn.to/1KP0qng"
@@ -89,7 +106,7 @@
               event-action="view"
               event-label="affiliate: codeSchool"
               target="_blank">
-              <strong>codeschool</strong></a>: Much of my coding skills have been self-taught, and I've found over the years the best way to learn code is to write it. Codeschool has a fantastic code editor that guides you through progressively more challenging excersizes, (dare I say it's somewhat addictive). After you've completed one of their "coding paths", you'll be well equipped to dive head-first into your next coding progject.
+              <strong>codeschool</strong></a>: Most of my coding skills have been self-taught, and I've found over the years the best way to learn code is to write it. Codeschool has a fantastic code editor that guides you through progressively more challenging exercises, (dare I say it's somewhat addictive). After you've completed one of their "coding paths", you'll be well equipped to dive head-first into your next coding project.
   			  </li>
   		</div>
   		<div class="small-12 columns pad-top"><hr class="light-bg"></div>
@@ -132,7 +149,7 @@
               event-action="view"
               event-label="affiliate: 99Designs"
               target="_blank">
-              <strong>99Designs</strong></a>: At 99designs, a network of over 1,179,000 designers compete to deliver the best design for your creative needs—from logos to business cards to full website concepts. Once you've gotten found a designer you love, you can continue working together directly, using 1-to-1 Projects.
+              <strong>99Designs</strong></a>: At 99designs, a network of over 1,179,000 designers competes to deliver the best design for your creative needs—from logos to business cards to full website concepts. Once you've gotten found a designer you love, you can continue working together directly, using 1-to-1 Projects.
   			  </li>
           <li class="clearfix bottomSpc">
   			    <a href="http://www.istockphoto.com"
@@ -141,7 +158,7 @@
               event-action="view"
               event-label="affiliate: istockPhoto"
               target="_blank">
-              <img alt="Affiliates_120x60_2" border="0" src="https://i.vimeocdn.com/portrait/551585_300x300.jpg" class="alignleft" style="width:120px"/>
+              <img alt="iStock" border="0" src="https://i.vimeocdn.com/portrait/551585_300x300.jpg" class="alignleft" style="width:120px"/>
             </a>
             <a href="http://www.istockphoto.com"
               ga-event-tracking
@@ -166,7 +183,7 @@
               event-action="view"
               event-label="affiliate: vitaminTalent"
               target="_blank">
-              <strong>VITAMIN T</strong></a>: Over the years Vitamin Talent has served me well when I was looking for design work. They have offices globally, and work with both Fortune 500 companies as well as beautique agencies looking for contract-to-hire staff. What's also great about Vitamin T is they offer competitive benefits to their talent, and they only specialize in design-focused jobs.
+              <strong>VITAMIN T</strong></a>: Over the years, vitamintalent has served me well when I was looking for design work. They have offices globally and work with both Fortune 500 companies as well as boutique agencies looking for contract-to-hire staff. What's also great about Vitamin T is they offer competitive benefits to their talent, and they only specialize in design-focused jobs.
   			  </li>
   			</ul>
   		</div>
@@ -192,7 +209,7 @@
                 event-action="view"
                 event-label="affiliate: helloFresh"
                 target="_blank">
-              <strong>Hello Fresh</strong></a>: When you're up to your eyeballs in freelance work, sometimes it's easy to neglect your diet. But being busy doesn't mean you have to eat poorly, enter Hello Fresh. Hello Fresh creates amazing recipes with their talented team of chefs, gathers all of the required groceries, (the meat and fish is restaurant-grade and the produce is always fresh), and packages everything up in a tidy box. The meals usually take under 35mins to prepare and always come out amazing.
+              <strong>Hello Fresh</strong></a>: When you're up to your eyeballs in freelance work, sometimes it's easy to neglect your diet. But being busy doesn't mean you have to eat poorly, enter Hello Fresh. Hello Fresh creates amazing recipes with their talented team of chefs, gathers all of the required groceries, (the meat and fish are restaurant-grade and the produce is always fresh), and packages everything up in a tidy box. The meals usually take under 35mins to prepare and always come out amazing.
   			  </li>
   			</ul>
   		</div>
