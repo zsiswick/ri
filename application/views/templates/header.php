@@ -28,6 +28,7 @@
 		<script type="text/javascript" src="<?php echo base_url(); ?>assets/js/vendor/modernizr.js"></script>
 		<script type="text/javascript" src="<?php echo base_url();?>assets/js/vendor/jquery.js"></script>
 		<script type="text/javascript" src="<?php echo base_url();?>assets/js/libs/angular.js"></script>
+
 		<script type="text/javascript" src="<?php echo base_url(); ?>assets/js/messenger/build/js/messenger.min.js"></script>
 		<script type="text/javascript" src="<?php echo base_url(); ?>assets/js/messenger/build/js/messenger-theme-future.js"></script>
 		<link rel="stylesheet" href="<?php echo base_url(); ?>assets/js/messenger/build/css/messenger.css" />
@@ -81,6 +82,7 @@
 									<li><?php echo anchor('invoices', 'Invoices', array('class' => ($this->uri->segment(1)=='invoices')? 'active' : '')); ?></li>
 									<li><?php echo anchor('quotes', 'Quotes', array('class' => ($this->uri->segment(1)=='quotes')? 'active' : '')); ?></li>
 									<li><?php echo anchor('clients', 'Clients', array('class' => ($this->uri->segment(1)=='clients')? 'active' : '')); ?></li>
+									<li><?php echo anchor('resources', 'Resources', array('class' => ($this->uri->segment(1)=='resources')? 'active' : '')); ?></li>
 									<li><?php echo anchor('settings', 'Settings', array('class' => ($this->uri->segment(1)=='settings')? 'active' : '')); ?></li>
 								</ul>
 							</nav>
@@ -100,6 +102,7 @@
 		  			<li><?php echo anchor('quotes', 'Quotes'); ?></li>
 		  			<li><?php echo anchor('clients', 'Clients'); ?></li>
 		  			<li><?php echo anchor('settings', 'Settings'); ?></li>
+						<li><?php echo anchor('resources', 'Resources'); ?></li>
 		  			<li><?php echo anchor('contact', 'Contact'); ?></li>
 		  		</ul>
 		  	</nav>
