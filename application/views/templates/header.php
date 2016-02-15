@@ -28,7 +28,7 @@
 		<script type="text/javascript" src="<?php echo base_url(); ?>assets/js/vendor/modernizr.js"></script>
 		<script type="text/javascript" src="<?php echo base_url();?>assets/js/vendor/jquery.js"></script>
 		<script type="text/javascript" src="<?php echo base_url();?>assets/js/libs/angular.js"></script>
-
+		<script type="text/javascript" src="<?php echo base_url();?>assets/js/directives/ga-event-tracking.directive.js"></script>
 		<script type="text/javascript" src="<?php echo base_url(); ?>assets/js/messenger/build/js/messenger.min.js"></script>
 		<script type="text/javascript" src="<?php echo base_url(); ?>assets/js/messenger/build/js/messenger-theme-future.js"></script>
 		<link rel="stylesheet" href="<?php echo base_url(); ?>assets/js/messenger/build/css/messenger.css" />
