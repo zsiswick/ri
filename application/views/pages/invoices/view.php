@@ -30,6 +30,12 @@
 					<a id="joyride-edit" href="<?php echo base_url()?>index.php/invoices/edit/<?php echo $item[0]['iid']?>" class="button small round secondary">Edit Invoice</a>
 				</div>
 				<h5 class="ruled caps">
+					Permalink
+				</h5>
+				<div class="info-block">
+					<a id="joyride-permalink" href="<?php echo base_url(); ?>index.php/invoice/view/<?php echo $item[0]['iid']?>/<?php echo $item['client'][0]['key']?>" class="button round small secondary">View</a>
+				</div>
+				<h5 class="ruled caps">
 					Auto-reminder
 				</h5>
 				<div class="switch round info-block">
@@ -74,22 +80,24 @@
 					<?php } ?>
 
 				</div>
-
-			</div>
-			<div class="medium-4 columns">
 				<h5 class="ruled caps">
 					PDF
 				</h5>
 				<div class="info-block">
 					<a id="joyride-pdf" href="<?php echo base_url(); ?>index.php/invoices/pdf/<?php echo $item[0]['iid']?>" class="button round small secondary">Download</a>
 				</div>
-				<h5 class="ruled caps">
-					Permalink
-				</h5>
-				<div class="info-block">
-					<a id="joyride-permalink" href="<?php echo base_url(); ?>index.php/invoice/view/<?php echo $item[0]['iid']?>/<?php echo $item['client'][0]['key']?>" class="button round small secondary">View</a>
-				</div>
-
+			</div>
+			<div class="medium-4 columns">
+				<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+				<!-- View Invoice Banner -->
+				<ins class="adsbygoogle"
+				     style="display:block"
+				     data-ad-client="ca-pub-4888778084679414"
+				     data-ad-slot="3533993484"
+				     data-ad-format="auto"></ins>
+				<script>
+				(adsbygoogle = window.adsbygoogle || []).push({});
+				</script>
 			</div>
 		</div>
 	</div>
