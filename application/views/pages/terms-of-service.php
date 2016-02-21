@@ -5,7 +5,7 @@
 			<p class="light">Last updated: September 05, 2014</p>
 
 			<div class="invoice-form light-bg text-left">
-				<p class="big-p text-center">Please read these Terms of Service carefully before using the <a href="https://www.rubyinvoice.com">rubyinvoice.com</a> website (the "Service") operated by Ruby Invoice ("us", "we", or "our").</p>
+				<p class="big-p text-center">Please read these Terms of Service carefully before using the <a href="http://www.rubyinvoice.com">rubyinvoice.com</a> website (the "Service") operated by Ruby Invoice ("us", "we", or "our").</p>
 
 				<p>Your access to and use of the Service is conditioned on your acceptance of and compliance with these Terms. These Terms apply to all visitors, users and others who access or use the Service.</p>
 
@@ -55,7 +55,7 @@
 
 				<h4><strong>Contact Us</strong></h4>
 
-				<p>If you have any questions about these Terms, please <a href="http://localhost/rubyinvoice/index.php/contact">contact us</a>.</p>
+				<p>If you have any questions about these Terms, please <a href="http://www.rubyinvoice.com/index.php/contact">contact us</a>.</p>
 			</div>
 
 		</div>
