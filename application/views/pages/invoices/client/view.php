@@ -29,9 +29,6 @@
 					<div class="row">
 						<div class="small-12 columns text-center">
 							<p></p><a href="<?php echo base_url(); ?>index.php/invoices/pdf/<?php echo $item[0]['iid']?>" class="button round"><i class="fi-download"></i> Download PDF</a>
-							<?php
-								if($item['settings'][0]['enable_payments'] == 1 && $item[0]['status'] != 3 && $item['settings'][0]['stripe_cust_token'] == true): echo anchor('#', 'Pay Invoice', 'title="Pay Invoice" data-reveal-id="paymentModal" class="button round"'); endif
-							?>
 						</div>
 					</div>
 
@@ -142,39 +139,6 @@
 
 					</div>
 
-			</div>
-		</div>
-	</div>
-</div>
-<div class="row">
-	<div class="columns small-12 text-center">
-		<p></p><a href="https://www.positivessl.com" style="font-family: arial; font-size: 10px; color: #212121; text-decoration: none;"><img src="https://www.positivessl.com/images-new/PositiveSSL_tl_trans2.png" alt="SSL Certificate" title="SSL Certificate" border="0"></a>
-	</div>
-</div>
-<div class="row">
-	<div class="small-12 medium-12 large-4 columns large-centered">
-		<div id="paymentModal" class="reveal-modal small light-bg text-center" data-reveal>
-			<h3>Pay Invoice</h3>
-			<hr />
-			<div id="form-errors" class="alert-box round"></div>
-			<div id="form-wrap">
-
-				<?php require_once(APPPATH.'config/stripe.php'); ?>
-				<form action="<?php echo(base_url());?>index.php/invoice/stripe_payment" method="POST">
-					<script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
-						data-key="<?php echo(PUBLISHABLE_KEY); ?>"
-						data-image="<?php echo base_url();?>assets/images/ruby-invoice-logo.jpg"
-						data-name="Ruby Invoice"
-						data-description="Invoice: #<?php echo($inv_num);?> (<?php echo($currency)?><?php echo number_format((float)($item[0]['amount'] - $payment_amount), 2, '.', ',');?>)">
-					</script>
-					<input type="hidden" name="uid" value="<?php echo($item[0]['uid']);?>" />
-					<input type="hidden" name="invoice_num" value="<?php echo($inv_num);?>" />
-					<input type="hidden" name="invoice_amount" value="<?php echo($item[0]['amount'] - $payment_amount);?>" />
-					<input type="hidden" name="iid" value="<?php echo($item[0]['iid']); ?>"/>
-					<input type="hidden" name="client_key" value="<?php echo($client_key); ?>"/>
-					<input type="hidden" name="cust_email" value="<?php echo($cust_email); ?>"/>
-					<input type="hidden" name="payment_notification" value="<?php echo($item['settings'][0]['payment_notification']); ?>"/>
-				</form>
 			</div>
 		</div>
 	</div>

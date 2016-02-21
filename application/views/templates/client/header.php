@@ -21,6 +21,8 @@
 		<link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/style.css" />
 		<script src="<?php echo base_url(); ?>assets/js/vendor/modernizr.js"></script>
 		<script type="text/javascript" src="<?php echo base_url();?>assets/js/vendor/jquery.js"></script>
+		<script type="text/javascript" src="<?php echo base_url();?>assets/js/libs/angular.js"></script>
+		<script type="text/javascript" src="<?php echo base_url();?>assets/js/directives/ga-event-tracking.directive.js"></script>
 
 		<?php if (isset($css_to_load)) :
 				foreach ($css_to_load as $css) : ?>
@@ -68,6 +70,7 @@
 						  			<ul id="main-menu">
 						  				<li><a href="<?php echo base_url(); ?>index.php/features" class="<?php echo( ($this->uri->segment(1)=='features')? 'active' : '' ) ?>">Features</a></li>
 						  				<li><a href="<?php echo base_url(); ?>index.php/contact" class="<?php echo( ($this->uri->segment(1)=='contact')? 'active' : '' ) ?>">Contact</a></li>
+											<li><a href="<?php echo base_url(); ?>index.php/resources" class="<?php echo( ($this->uri->segment(1)=='resources')? 'active' : '' ) ?>">Resources</a></li>
 						  				<li><a href="<?php echo base_url(); ?>index.php/auth/login" class="<?php echo( ($this->uri->segment(2)=='login')? 'active' : '' ) ?>">Sign In</a></li>
 						  			</ul>
 						  		</nav>
@@ -82,6 +85,7 @@
 					<ul id="main-menu-mobile">
 						<li><a href="<?php echo base_url(); ?>index.php/features">Features</a></li>
 						<li><a href="<?php echo base_url(); ?>index.php/contact">Contact</a></li>
+						<li><a href="<?php echo base_url(); ?>index.php/resources">Resources</a></li>
 						<li><a href="<?php echo base_url(); ?>index.php/auth/login">Sign In</a></li>
 						<li><a href="<?php echo base_url(); ?>index.php/auth/register">Register</a></li>
 					</ul>

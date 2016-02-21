@@ -1,6 +1,6 @@
 var environ = window.location.host;
 
-if (environ === "localhost") {
+if(environ.indexOf('localhost') > -1) {
   var baseurl = window.location.protocol + "//" + window.location.host + "/" + "rubyinvoice/";
 } else {
   var baseurl = window.location.protocol + "//" + window.location.host + "/";
@@ -16,7 +16,7 @@ var app = angular.module('projectApp', ['mm.foundation'])
       var time_unit = 3600; // time measured in seconds
       time_hours = (total_time / time_unit).toFixed(2);
       return time_hours;
-    }
+    };
 
     // TODO MOVE THIS TO THE MODEL
     calcTimers = function() {
@@ -80,7 +80,7 @@ var app = angular.module('projectApp', ['mm.foundation'])
         $scope.project_object[index].hours_worked = $scope.convertToHours(tasks_total_time);
 
       }
-    }
+    };
 
     // GET PROJECT JSON
     $scope.loadProjects = function () {
@@ -91,7 +91,7 @@ var app = angular.module('projectApp', ['mm.foundation'])
           type: 'error'
         });
 
-        $scope.project_object = JSON.parse(localStorage.localData);
+        // $scope.project_object = JSON.parse(localStorage.localData);
       })
      .success(function(data) {
 
@@ -216,7 +216,7 @@ var app = angular.module('projectApp', ['mm.foundation'])
           type: 'success'
         });
       });
-    }
+    };
 
     $scope.setTask = function(id, tname, trate, testimate, pid, update) {
 
@@ -345,38 +345,38 @@ var app = angular.module('projectApp', ['mm.foundation'])
 
     $scope.getProjectForm = function() {
       return baseurl+'assets/html/project-form.html';
-    }
+    };
 
     $scope.getEditProjectForm = function() {
       return baseurl+'assets/html/edit-project-form.html';
-    }
+    };
 
     $scope.getProjectTemplate = function () {
       return baseurl+'assets/html/project-row.html';
-    }
+    };
 
     $scope.showProjectForm = function() {
       $scope.pform = true;
-    }
+    };
 
     $scope.hideProjectForm = function() {
       $scope.pform = false;
-    }
+    };
 
     $scope.hideEditProjectForm = function(prj) {
       prj.project_form = false;
-    }
+    };
 
     $scope.showEditProjectForm = function(prj){
       prj.project_form = true;
-    }
+    };
 
     $scope.addProject = function(prj) {
       $scope.project_object.unshift({
         project_name: prj
       });
       $scope.setProject(prj);
-    }
+    };
 
     $scope.updateProject = function(prj, project_name) {
       $.extend(true, prj, {
@@ -384,12 +384,12 @@ var app = angular.module('projectApp', ['mm.foundation'])
         "status":prj.status
       });
       $scope.editProject(prj, project_name);
-    }
+    };
 
     $scope.removeProject = function(prj_index, prj) {
       $scope.deleteProject(prj);
       $scope.project_object.splice(prj_index, 1);
-    }
+    };
 
 
     // TASK CREATION INTERACTIONS
@@ -413,7 +413,7 @@ var app = angular.module('projectApp', ['mm.foundation'])
 
       prj.task_form = false;
       $scope.addTaskRow(prj, task_name, task_rate, task_estimate)
-    }
+    };
     $scope.editTaskRow = function(task, task_name, task_rate, task_estimate) {
 
       $.extend(true, task, {
@@ -434,60 +434,60 @@ var app = angular.module('projectApp', ['mm.foundation'])
       if ( $scope.project_object[prj].tasks.length <= 0 ) {
         $scope.project_object[prj].task_form = false;
       }
-    }
+    };
 
     $scope.getTaskForm = function() {
       return baseurl+'assets/html/task-form.html';
-    }
+    };
 
     $scope.getEditTaskForm = function() {
       return baseurl+'assets/html/edit-task-form.html';
-    }
+    };
 
     $scope.getTaskTemplate = function () {
       return baseurl+'assets/html/task-row.html';
-    }
+    };
 
     $scope.showTaskForm = function(prj){
       prj.task_form = true;
-    }
+    };
 
     $scope.hideTaskForm = function(prj) {
       prj.task_form = false;
-    }
+    };
 
     $scope.showEditTaskForm = function(task){
       task.task_form = true;
-    }
+    };
 
     $scope.hideEditTaskForm = function(task){
       task.task_form = false;
-    }
+    };
 
     // TIMER CREATION INTERACTIONS
     $scope.getTaskTimer = function() {
       return baseurl+'index.php/clients/view_timer/'+$scope.timerId;
-    }
+    };
 
     $scope.setTimerId = function(task) {
       $scope.timerId = task.id;
       //console.log(task);
-    }
+    };
 
     $scope.getTimerRows = function() {
       return baseurl+'assets/html/timer-row.html';
-    }
+    };
 
     $scope.removeRecord = function(id, action, prj, task, index) {
       $scope.project_object[prj].tasks[task].timers.splice(index, 1);
       calcTimers();
       $scope.deleteTimer(id, action);
-    }
+    };
 
     $scope.draft_invoice = function(prj, $index) {
 
       window.location.href = baseurl+'index.php/clients/convert_invoice/'+prj.project_id+'/'+cid;
-    }
+    };
 
 
 }]);
@@ -497,4 +497,4 @@ var app = angular.module('projectApp', ['mm.foundation'])
 Messenger.options = {
     extraClasses: 'messenger-fixed messenger-on-bottom messenger-on-right',
     theme: 'air'
-}
+};

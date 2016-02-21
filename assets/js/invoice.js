@@ -1,7 +1,7 @@
 var $invoice_currency = $('input[name=invoice_currency]').val();
 var environ = window.location.host;
 
-if (environ === "localhost") {
+if(environ.indexOf('localhost') > -1) {
   var baseurl = window.location.protocol + "//" + window.location.host + "/" + "rubyinvoice/";
 } else {
   var baseurl = window.location.protocol + "//" + window.location.host + "/";

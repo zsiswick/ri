@@ -124,7 +124,7 @@
 					</ul>
 				</p>
 
-				<p>If at any time you would like to unsubscribe from receiving future emails, you can <a href="https://www.rubyinvoice.com/index.php/contact">email us</a> and we will promptly remove you from ALL correspondence.
+				<p>If at any time you would like to unsubscribe from receiving future emails, you can <a href="http://www.rubyinvoice.com/index.php/contact">email us</a> and we will promptly remove you from ALL correspondence.
 				</p>
 
 				<h4>Contacting Us</h4>
